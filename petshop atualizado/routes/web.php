@@ -13,6 +13,7 @@
 
 Route::get('/','HomeController@index');
 Route::get('/dicas_saude','HomeController@dicas_saude');
+Route::get('/acessorio','HomeController@acessorio');
 
 Auth::routes();
 

@@ -30,4 +30,9 @@ class HomeController extends Controller
     {
         return view('site.dicas');
     }
+
+    public function acessorio()
+    {
+        return view('site.acessorio');
+    }
 }

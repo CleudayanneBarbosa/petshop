@@ -8,7 +8,7 @@
             <a class="nav-item nav-link active" href="index.blade.php">Home</a>
             <a class="nav-item nav-link" href="nova.blade.php">Nova Solicitação</span></a>
             <a class="nav-item nav-link" href="{{ action('HomeController@dicas_saude') }}">Dicas e Saúde</span></a>
-            <a class="nav-item nav-link" href="acessorio.blade.php">Acessórios</span></a>
+            <a class="nav-item nav-link" href="{{ action('HomeController@acessorio') }}">Acessórios</span></a>
             <a class="nav-item nav-link" href="fale.blade.php">Fale com o cuidador</span></a>
             <a class="nav-item nav-link" href="contato.blade.php">Contatos</span></a>
  <!-- area do login-->
