@@ -35,4 +35,8 @@ class HomeController extends Controller
     {
         return view('site.acessorio');
     }
+     public function fale()
+     {
+        return view('site.fale');
+     }
 }
